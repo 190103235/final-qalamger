@@ -1,0 +1,13 @@
+.hero {
+    margin-top: 140px;
+}
+
+.hero__row {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.hero__text {
+    flex-basis: 40%;
+    margin-right: 60px;
+}

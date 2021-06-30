@@ -1,0 +1,29 @@
+.btn {
+    padding: 20px 30px;
+    display: block;
+    text-decoration: none;
+    background: #445bd4;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 1px solid #445bd4;
+    &:hover {
+        background: darken(#445bd4, 5%);
+    }
+}
+
+.btn-outline{
+    border:1px solid #445bd4;
+    color:#445bd4;
+    background: white;
+    &:hover{
+        background: #445bd4;
+        color:white;
+    }
+}
+
+.btn__group {
+    display:flex;
+    justify-content: flex-start;
+}
